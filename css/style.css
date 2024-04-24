@@ -27,6 +27,7 @@ footer{
 }
 .articles{
     background-color: lightskyblue;
+
 }
 h2{
     text-align: center;
@@ -40,7 +41,7 @@ h2{
 }
 p{
     font-size: 1.5em;
-    line-height: 2.5em;
+    line-height: 1.5em;
 }
 .list{
     margin-left: 50px;
@@ -56,11 +57,35 @@ nav{
 }
 .content{
     background-color: orange;
-    padding: 20px 50px;
+    padding: 1.5em 4em;
 }
 .list_2{
     font-size: 2em;
     font-weight: bold ;
+    padding-top: 0.25em;
 }
-
-
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.list li:nth-child(odd){
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.articles h2::after{
+    content: "new";
+    margin-left: 20px;
+    font-size: 12px;
+    color:blue;
+}
+.list_2+p{
+    padding-top: 0.5em;
+    line-height: 1.5em;
+}
+.list_4{
+    list-style-type: none;
+}
+h2+p{
+    padding-top: 0.5em;
+}
