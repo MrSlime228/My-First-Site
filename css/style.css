@@ -89,3 +89,13 @@ a:hover{
 h2+p{
     padding-top: 0.5em;
 }
+.icon{
+    margin: 10px 10px;
+    width: 3em;
+}
+.blok1{
+    text-align: center;
+}
+.paboutme{
+    text-indent: 2em;
+}
